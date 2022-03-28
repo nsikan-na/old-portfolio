@@ -1,0 +1,62 @@
+*{
+
+color:white;
+text-align:center;
+}
+button{
+    color:black;
+}
+h1{
+    color:white;
+    padding-top:5%;
+}
+
+td{
+    background-color: rgba(65, 65, 65, 0.8);
+    padding: 1% !important;
+}
+table{
+    max-width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+table{
+    border:2px solid white;
+
+}
+td,tr{
+    border:1px solid white;
+}
+.myButton{
+    background-color: rgba(65, 65, 65, 0.3);
+    color:white;
+    border-radius:2em;
+    font-size:1.1em;
+    border:1px solid rgba(255, 255, 255, 0.4);
+    padding:.5%;
+    margin-right:2%;
+    transition:.5s;
+    text-align:center;
+    position: relative;
+}
+.myButton:hover{
+    background-color: white ;
+    color:rgba(65, 65, 65);
+    transform:scale(1.1);
+}
+.myInput,.myForgotInput{
+    width:25%;
+    background-color:rgba(255, 255, 255, 0.5);
+    margin-left:auto;
+    margin-right:auto;
+}
+.myLoginInput{
+    background-color:rgba(255, 255, 255, 0.5);
+    margin-left:auto;
+    margin-right:auto;
+}
+.greeting{
+    padding-top:2%;
+    padding-right:2%;
+    text-align:right;
+}
